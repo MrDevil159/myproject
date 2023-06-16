@@ -1,0 +1,81 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 22px;
+}
+
+body {
+  min-height: 100vh;
+  font-family: 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.App {
+  display: flex;
+  flex-direction: column;
+  height: 100vh; 
+  width: 100%; 
+}
+
+header {
+  width: 100%;
+  padding: 0.5rem;
+  background-color: rgb(62, 62, 62);
+  color: aliceblue;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+main {
+  width: 80%;
+  margin: 0 auto;
+  padding: 10px;
+  background-color: #cdcdcd;
+}
+main {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+  
+}
+.row {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+  flex-wrap: wrap;
+}
+.cards {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  color: white;
+  background-color: black;
+  padding: 0 5px 0 5px;
+  height: 400px;
+  width: 25%;
+  margin: 1px 1px 1px 1px;
+
+}
+.cards img {
+  height: 150px;
+}
+footer {
+  width: 100%;
+  padding: 0.5rem;
+  background-color: rgb(62, 62, 62);
+  color: aliceblue;
+  display: grid;
+  place-content: center;
+}
